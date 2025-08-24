@@ -24,6 +24,7 @@ import Gamedev from "./components/Gamedev";
 import Linkedin from "./components/Linkedin";
 import Resume from "./components/Resume";
 import Lensmaster from "./components/Lensmaster";
+import Radiance from "./components/Radiance";
 
 const App = () => {
   useEffect(() => {
@@ -58,6 +59,7 @@ const App = () => {
           <Route path="/linkedin" element={<Linkedin />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/lensmaster" element={<Lensmaster />} />
+         <Route path="/radiance" element={<Radiance />} />
           {/* Add more routes as needed */}
         </Routes>
       </main>
